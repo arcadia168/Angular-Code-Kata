@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="row">
+        <div class="row">
+            <h2 class="search-title">Stylish Hotel Search</h2>
+            <button class="btn btn-default sort-btn" ng-if="descending" ng-click="toggleStarRating()">Sort by Star
+                Rating
+                <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+            </button>
+            <button class="btn btn-default sort-btn" ng-if="!descending" ng-click="toggleStarRating()">Sort by Star
+                Rating
+                <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+            </button>
+        </div>
+        <div id="custom-search-input">
+            <div class="input-group col-md-12">
+                <input type="text" ng-model="query" class="search-query form-control" autofocus
+                       placeholder="Search by Hotel Facility"/>
+                                <span class="input-group-btn">
+                                    <button class="btn btn-danger" type="button">
+                                        <span class=" glyphicon glyphicon-search"></span>
+                                    </button>
+                                </span>
+            </div>
+        </div>
+    </div>
+    <div class="list-group col-md-12 search-results">
+        <div class="list-group-item"
+             ng-repeat="hotel in hotelListings | filter: query | orderBy: 'StarRating' : descending">
+            <h4 class="list-group-item-heading">{{hotel.Name}}</h4>
+            <div class="list-group-item-text">
+                <span>
+                    <span>Rating: </span>
+                    <span class="ratingAsNum">({{hotel.StarRating}})</span>
+                    <star-rating rating-value="hotel.StarRating" readonly="true"></star-rating>
+                </span>
+                <span ng-if="hotel.Facilities.length > 0" class="pull-right">
+                    <span>Facilities: </span>
+                    <span class="list-group-item-text" ng-repeat="facility in hotel.Facilities track by $index">{{facility}}
+                        <span ng-if="$index < (hotel.Facilities.length - 1)">,</span>
+                    </span>
+                </span>
+                <span ng-if="hotel.Facilities.length == 0" class="pull-right">
+                    <span>No facilities</span>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
