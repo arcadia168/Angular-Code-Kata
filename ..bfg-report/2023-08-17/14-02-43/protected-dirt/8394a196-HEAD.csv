@@ -1,0 +1,7 @@
+01efea4bf6aca9418f275965f8c1c710c501d15b,MODIFY,regular-file,LICENSE,1076,3
+37777b3bbaac82ac9725c24656de3241058075db,MODIFY,regular-file,app/index.html,3552,56
+105ab6e015d7239ca71eccacc9ca06ce8f53aa22,MODIFY,regular-file,app/scripts/app.js,687,7
+90a112a1677350929ac4868b3e3e82895f0c6e76,MODIFY,regular-file,app/scripts/main.js,65,1
+dde64cac7ac9fb80afab452b16d95b65ae362ad2,MODIFY,regular-file,bower_components/jquery/AUTHORS.txt,10364,25;36;136;147;171;189;221;240
+93ad1bff98fb3f9eb7c710c5dd855785947f0680,MODIFY,regular-file,bower_components/mocha/.mailmap,867,10
+33653390e4f58f501264b71581bf587d7ebe0f11,MODIFY,regular-file,bower_components/modernizr/modernizr.js,51351,22
