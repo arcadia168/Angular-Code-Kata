@@ -1,0 +1,16 @@
+7df41e56e5dcb9bacdc9b8ebc8e835a249b93149,MODIFY,regular-file,bower_components/angular-touch/angular-touch.js,26523,567
+ae4d323e7da0a1644e7e480342e9b21463b6ee22,MODIFY,regular-file,bower_components/chai/History.md,37611,319;368;370;374
+2a80d5cec1ac6fb4d048d9348d5c2c1f6391628f,MODIFY,regular-file,bower_components/chai/ReleaseNotes.md,30024,636;664-666
+1d30296a41be59410787ce5e5f3795ad7c74fb61,MODIFY,regular-file,bower_components/chai/chai.js,158570,830;880;928;978;1026
+8f71f43fee3f78649d238238cbde51e6d7055c82,MODIFY,regular-file,bower_components/ionic-platform-web-client/LICENSE,11358,21
+dde64cac7ac9fb80afab452b16d95b65ae362ad2,MODIFY,regular-file,bower_components/jquery/AUTHORS.txt,10364,25;36;136;147;171;189;221;240
+385474756fe0b8d2b1d4b32f51a64344d50a348e,MODIFY,regular-file,bower_components/jquery/dist/jquery.js,258648,2160;4720;6223
+9d4773ce69ec18e4d0841b4e7da16ca941dcf2dd,MODIFY,regular-file,bower_components/jquery/dist/jquery.slim.js,209386,2203;5028;6342
+9b1e5ba62cebb39a0fb3a3dcc7d4b6535a551907,MODIFY,regular-file,bower_components/jquery/sizzle/dist/sizzle.js,61288,1615
+ec55a24115a9ee8181459f33873f35b46370cc6b,MODIFY,regular-file,bower_components/jquery/src/css.js,13583,385
+6d60b4c115ce6345e1984c7d07aba1960e356323,MODIFY,regular-file,bower_components/jquery/src/event.js,19137,307
+93ad1bff98fb3f9eb7c710c5dd855785947f0680,MODIFY,regular-file,bower_components/mocha/.mailmap,867,10
+199deaf47bafe8c38ac9f18b5cb85a6f6a0ea2a7,MODIFY,regular-file,bower_components/mocha/CHANGELOG.md,42304,65;107;183;232
+25341894d0df56fc301cb7777f29ed9bcc0b59de,MODIFY,regular-file,bower_components/modernizr/feature-detects/custom-protocol-handler.js,231,5
+33653390e4f58f501264b71581bf587d7ebe0f11,MODIFY,regular-file,bower_components/modernizr/modernizr.js,51351,22
+98c6d0df5b15a8a32141ba4bef5c562db1058d69,MODIFY,regular-file,bower_components/modernizr/test/js/lib/jquery-1.7b2.js,248420,3280

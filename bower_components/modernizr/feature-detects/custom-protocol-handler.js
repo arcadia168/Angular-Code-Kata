@@ -2,7 +2,7 @@
 	Custom protocol handler support
 	http://developers.whatwg.org/timers.html#custom-handlers
 	
-	Added by @***REMOVED***schwarz
+	Added by @benschwarz
 */
 
 Modernizr.addTest('customprotocolhandler', function () {

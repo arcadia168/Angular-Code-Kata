@@ -316,7 +316,7 @@ commit logs available on GitHub](https://github.com/chaijs/chai/commits/master).
   * Code review comments - changing syntax
   * Code review comments
   * Adding members and memberEquals assertions for checking for subsets and set equality. Implements chaijs/chai#148.
-  * Merge pull request #140 from Ru***REMOVED***Verborgh/function-prototype
+  * Merge pull request #140 from RubenVerborgh/function-prototype
   * Restore the `call` and `apply` methods of Function when adding a chainable method.
   * readme: 2013
   * notes: migration notes for deep equal changes
@@ -365,13 +365,13 @@ commit logs available on GitHub](https://github.com/chaijs/chai/commits/master).
   * Merge pull request #138 from timnew/master
   * Fix issue #137, test message existence by using message!=null rather than using message
   * Fixed backwards negation messages.
-  * Merge pull request #133 from Ru***REMOVED***Verborgh/throw
+  * Merge pull request #133 from RubenVerborgh/throw
   * Functions throwing strings can reliably be tested.
-  * Merge pull request #131 from Ru***REMOVED***Verborgh/proto
+  * Merge pull request #131 from RubenVerborgh/proto
   * Cache whether __proto__ is supported.
   * Use __proto__ if available.
   * Determine the property names to exclude beforehand.
-  * Merge pull request #126 from Ru***REMOVED***Verborgh/eqls
+  * Merge pull request #126 from RubenVerborgh/eqls
   * Add alias eqls for eql.
   * Use inherited enumerable properties in deep equality comparison.
   * Show inherited properties when inspecting an object.

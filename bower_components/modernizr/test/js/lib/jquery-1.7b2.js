@@ -3277,7 +3277,7 @@ jQuery.event = {
 		// Copy the remaining (bound) handlers in case they're changed
 		handlers = handlers.slice( delegateCount );
 
-		// Run delegates first; they may want to stop propagation ***REMOVED***eath us
+		// Run delegates first; they may want to stop propagation beneath us
 		event.delegateTarget = this;
 		for ( i = 0; i < handlerQueue.length && !event.isPropagationStopped(); i++ ) {
 			matched = handlerQueue[ i ];

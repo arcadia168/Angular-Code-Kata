@@ -827,7 +827,7 @@ module.exports = function (chai, _) {
    *     expect(10).to.be.above(5);
    *
    * Can also be used in conjunction with `length` to
-   * assert a minimum length. The ***REMOVED***efit being a
+   * assert a minimum length. The benefit being a
    * more informative error message than if the length
    * was supplied directly.
    *
@@ -877,7 +877,7 @@ module.exports = function (chai, _) {
    *     expect(10).to.be.at.least(10);
    *
    * Can also be used in conjunction with `length` to
-   * assert a minimum length. The ***REMOVED***efit being a
+   * assert a minimum length. The benefit being a
    * more informative error message than if the length
    * was supplied directly.
    *
@@ -925,7 +925,7 @@ module.exports = function (chai, _) {
    *     expect(5).to.be.below(10);
    *
    * Can also be used in conjunction with `length` to
-   * assert a maximum length. The ***REMOVED***efit being a
+   * assert a maximum length. The benefit being a
    * more informative error message than if the length
    * was supplied directly.
    *
@@ -975,7 +975,7 @@ module.exports = function (chai, _) {
    *     expect(5).to.be.at.most(5);
    *
    * Can also be used in conjunction with `length` to
-   * assert a maximum length. The ***REMOVED***efit being a
+   * assert a maximum length. The benefit being a
    * more informative error message than if the length
    * was supplied directly.
    *
@@ -1023,7 +1023,7 @@ module.exports = function (chai, _) {
    *     expect(7).to.be.within(5,10);
    *
    * Can also be used in conjunction with `length` to
-   * assert a length range. The ***REMOVED***efit being a
+   * assert a length range. The benefit being a
    * more informative error message than if the length
    * was supplied directly.
    *

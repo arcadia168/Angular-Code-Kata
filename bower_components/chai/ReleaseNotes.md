@@ -633,7 +633,7 @@ assert.notInclude('foobar', 'baz');
 
 ### Community Contributions
 
-- [#140](https://github.com/chaijs/chai/pull/140) Restore `call`/`apply` methods for plugin interface. [@Ru***REMOVED***Verborgh](https://github.com/Ru***REMOVED***Verborgh)
+- [#140](https://github.com/chaijs/chai/pull/140) Restore `call`/`apply` methods for plugin interface. [@RubenVerborgh](https://github.com/RubenVerborgh)
 - [#148](https://github.com/chaijs/chai/issues/148)/[#153](https://github.com/chaijs/chai/pull/153) Add `members` and `include.members` assertions. [#NickHeiner](https://github.com/NickHeiner)
 
 Thank you to all who took time to contribute!
@@ -661,9 +661,9 @@ The following changes are required if you are upgrading from the previous versio
 
 ### Community Contributions
 
-- [#126](https://github.com/chaijs/chai/pull/126): Add `eqls` alias for `eql`. [@Ru***REMOVED***Verborgh](https://github.com/Ru***REMOVED***Verborgh)
-- [#127](https://github.com/chaijs/chai/issues/127): Performance refactor for chainable methods. [@Ru***REMOVED***Verborgh](https://github.com/Ru***REMOVED***Verborgh)
-- [#133](https://github.com/chaijs/chai/pull/133): Assertion `.throw` support for primitives. [@Ru***REMOVED***Verborgh](https://github.com/Ru***REMOVED***Verborgh)
+- [#126](https://github.com/chaijs/chai/pull/126): Add `eqls` alias for `eql`. [@RubenVerborgh](https://github.com/RubenVerborgh)
+- [#127](https://github.com/chaijs/chai/issues/127): Performance refactor for chainable methods. [@RubenVerborgh](https://github.com/RubenVerborgh)
+- [#133](https://github.com/chaijs/chai/pull/133): Assertion `.throw` support for primitives. [@RubenVerborgh](https://github.com/RubenVerborgh)
 - [#137](https://github.com/chaijs/chai/issues/137): Assertion `.throw` support for empty messages. [@timnew](https://github.com/timnew)
 - [#136](https://github.com/chaijs/chai/pull/136): Fix backward negation messages when using `.above()` and `.below()`. [@whatthejeff](https://github.com/whatthejeff)
 

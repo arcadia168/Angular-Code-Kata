@@ -62,7 +62,7 @@
 * [#1993] - propagate "file" property for "exports" interface ([@segrey])
 * [#1999] - Add support for strict mode ([@tmont])
 * [#2005] - XUnit Reporter Writes to stdout, falls back to console.log ([@jonnyreeves])
-* [#2021] - Fix non ES5 compliant regexp ([@zeta***REMOVED***])
+* [#2021] - Fix non ES5 compliant regexp ([@zetaben])
 * [#1965] - Don't double install BDD UI ([@cowboyd])
 * [#1995] - Make sure the xunit output dir exists before writing to it ([@ianwremmel])
 * Use chalk for the base reporter colors; closes #1200 ([@boneskull])
@@ -104,7 +104,7 @@
 [@segrey]: https://github.com/segrey
 [@tmont]: https://github.com/tmont
 [@jonnyreeves]: https://github.com/jonnyreeves
-[@zeta***REMOVED***]: https://github.com/zeta***REMOVED***
+[@zetaben]: https://github.com/zetaben
 [@cowboyd]: https://github.com/cowboyd
 [@ianwremmel]: https://github.com/ianwremmel
 [@boneskull]: https://github.com/boneskull
@@ -180,7 +180,7 @@
   * [#1761] - Fix problems running under PhantomJS ([@chromakode])
   * [#1700] - Fix more problems running under PhantomJS ([@jbnicolai])
   * [#1774] - Support escaped spaces in CLI options ([@adamgruber])
-  * [#1687] - Fix HTML reporter links with special chars ([@***REMOVED***vinegar])
+  * [#1687] - Fix HTML reporter links with special chars ([@benvinegar])
   * [#1359] - Adopt code style and enforce it using ESLint ([@ndhoule] w/ assist from [@jbnicolai] & [@boneskull])
   * various refactors ([@jbnicolai])
   * [#1758] - Add cross-frame compatible Error checking ([@outdooricon])
@@ -229,7 +229,7 @@
   [@ajaykodali]: https://github.com/ajaykodali
   [@amsul]: https://github.com/amsul
   [@aryeguy]: https://github.com/aryeguy
-  [@***REMOVED***vinegar]: https://github.com/***REMOVED***vinegar
+  [@benvinegar]: https://github.com/benvinegar
   [@boneskull]: https://github.com/boneskull
   [@chromakode]: https://github.com/chromakode
   [@dominicbarnes]: https://github.com/dominicbarnes
