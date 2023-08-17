@@ -4,7 +4,7 @@
  * @ngdoc overview
  * @name lateroomsKataApp
  * @description
- * # Code kata for LateRooms job application by ***REMOVED*** ***REMOVED***
+ * # Code kata for LateRooms job application by Erin Eland
  *
  * Main module of the application.
  */

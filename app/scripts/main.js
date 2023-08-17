@@ -1,1 +1,1 @@
-console.log('\'***REMOVED*** ***REMOVED*** Laterooms application code kata. Hi!');
+console.log('\'Erin Eland Laterooms application code kata. Hi!');
